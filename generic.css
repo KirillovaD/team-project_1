@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'allerta_stencil_regular';
+    src: url('assets/fonts/allertastencil-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/allertastencil-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_bold';
+    src: url('assets/fonts/dmsans-bold-webfont.woff2') format('woff2'),
+    url('assets/fonts/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_medium';
+    src: url('assets/fonts/dmsans-medium-webfont.woff2') format('woff2'),
+    url('assets/fonts/dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_regular';
+    src: url('assets/fonts/dmsans-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*css responsible for header view start*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 16px;
+}
+
+.logo p::first-letter {
+    color: #A18A68;
+}
+
+.logo p {
+    font-family: allerta_stencil_regular, sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 0;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-family: dm_sans_regular, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.nav hr {
+    width: 1px;
+    height: 18px;
+    display: inline-block;
+    color: #707070;
+}
+
+.nav *:not(:last-child) {
+    margin-right: 48px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 27px;
+}
+
+.links *:not(:last-child) {
+    margin-right: 64px;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.action-buttons > div {
+    display: flex;
+}
+
+.action-buttons *:not(:last-child) {
+    margin-right: 48px;
+}
+
+/*css responsible for header view end*/
+
+footer {
+    box-sizing: border-box;
+    height: 159px;
+    margin-top: 250px;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav h5, .footer-line h5 {
+    font-family: dm_sans_regular, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.footer-nav h5:not(:last-child) {
+    padding-right: 41px;
+}
+
+
+.footer-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px black;
+}
+
+.footer-email h5 {
+    margin: 0;
+}
+
+.footer-social-media {
+    display: flex;
+    box-sizing: border-box;
+    width: 159px;
+    height: 19px;
+}
+
+.footer-social-media a:not(:last-child) {
+    margin-right: 30px;
+}
