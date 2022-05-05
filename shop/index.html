@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../normalize.css">
     <link rel="stylesheet" href="../generic.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="">
 </head>
 
 <body>
@@ -50,7 +51,7 @@
                 <input type="text" name="search" placeholder="Search..." id="search">
                 <img src="../assets/img/loop%20icon.png" alt="search-loop" width="19" height="19"
                     id="search-form_search-loop-img">
-                <form action="" class="form-filter">
+                <form action="" class="form_selectors">
                     <select name="shop-by" id="shop-by">
                         <option value="shop-by1">Earings</option>
                         <option value="shop-by2">Rings</option>
@@ -66,10 +67,15 @@
                         <option value="sort-by3">Price Low to High</option>
                         <option value="sort-by4">Price High to Low</option>
                     </select>
-
+                    <br><br>
+                    <div class="price-range">
+                        <input type="range" id="vol" name="vol" min="40" max="180" value="60">
+                        <br><br>
+                        <label for="vol" id="vol">Price: $40 - $180</label>
+                        <span class="price-range_filter">Filter</span>
+                    </div>
                 </form>
             </div>
-
 
             <div class="product-cards">
                 <div class="product-card">
