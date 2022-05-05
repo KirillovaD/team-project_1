@@ -5,6 +5,40 @@ article {
     height: 646px;
 }
 
+article button{
+    margin-top: 48px;
+    margin-left: 39px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 16px;
+    width: 193px;
+    height: 53px;
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.article-text{
+    margin-left: 36px;
+    padding-top: 226px;
+}
+
+article h2{
+    font-size: 33px;
+    line-height: 43px;
+    color: white;
+}
+
+article p{
+    font-size: 26px;
+    line-height: 35px;
+    color: white;
+    margin: 16px 0 0 0;
+
+}
+
+
 .content {
     width: 1248px;
     margin: 0 auto;
@@ -26,3 +60,68 @@ article {
 h5 span {
     color: #000000;
 }
+
+/*общие для всех*/
+.product-cards-typography{
+    font-family: dm_sans_regular, sans-serif;
+}
+
+.product-cards > *{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.product-cards h4{
+    margin: 24px 0 16px 0;
+    font-weight: normal;
+}
+
+h4 + p{
+    color: #A18A68;
+    margin: 0;
+}
+
+
+/**/
+
+.section-header h2{
+    margin-top: 64px;
+    margin-bottom: 39px;
+}
+
+.section-header a:link, .section-header a:visited{
+    margin-top: 73px;
+    margin-bottom: 47px ;
+    text-decoration: none;
+    color:  #A18A68;
+}
+
+.product-card .image:first-child:hover{
+    opacity: 25%;
+}
+
+.product-cards .image {
+    position: relative;
+}
+
+
+.product-card .image .hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card:hover .hidden {
+    visibility: visible;
+}
+
+
+
