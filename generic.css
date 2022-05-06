@@ -148,3 +148,60 @@ footer {
 .footer-social-media a:not(:last-child) {
     margin-right: 30px;
 }
+
+/**Fonts**/
+h1 {
+    font-family: 'dm_sans_medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+
+    color: #323232;
+}
+
+h2 {
+    font-family: 'dm_sans_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+
+    color: #323232;
+
+}
+
+h3 {
+    font-family: 'dm_sans_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #323232;
+
+}
+
+h4 {
+    font-family: 'dm_sans_medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    text-transform: capitalize;
+
+    color: #323232;
+
+}
+
+h5 {
+    font-family: 'dm_sans_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
