@@ -40,10 +40,11 @@
 .underline {
     border: 1px solid #D8D8D8;
 }
-
-.section-header {
+.section_shop {
     margin-top: 96px;
+
 }
+
 .search-form {
     position: absolute;
     width: 262px;
@@ -55,18 +56,36 @@
     border: none;
     border-bottom: 1px solid #D8D8D8;
     width: 230px;
+
+    font-family: 'dm_sans_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
     
 
 }
 .form_selectors {
     margin-top: 39px;
 }
+select {
+    padding-left: 12px;
+    padding-right: 12px;
+
+    font-family: 'dm_sans_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+}
 #shop-by, #sort-by {
     width: 261px;
     height: 53px;
     border: 1px solid #D8D8D8;
     border-radius: 4px;
-    padding-left: 12px;
+    
     
 }
 .form_price-range {
