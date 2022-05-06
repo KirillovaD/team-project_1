@@ -47,7 +47,6 @@
 .search-form {
     position: absolute;
     width: 262px;
-    height: 336px;
     margin-top: 40px;
 
 
@@ -95,9 +94,14 @@
     color: #A18A68;
 
 }
-.toggle-1 {
+.toggle-1, .toggle-2 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 39px;
+}
+h5 {
+    margin: 0;
 }
 /**toggle**/
 .switch {
@@ -179,4 +183,7 @@ h5 span {
 }
 footer .underline{
     margin-bottom: 37px;
+}
+.h4_gold {
+    color: #A18A68;
 }
