@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'allerta_stencil_regular';
+    src: url('../assets/fonts/allertastencil-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/allertastencil-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_bold';
+    src: url('../assets/fonts/dmsans-bold-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_medium';
+    src: url('../assets/fonts/dmsans-medium-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_regular';
+    src: url('../assets/fonts/dmsans-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header, footer {
+    margin-left: 96px;
+    margin-right: 96px;
+}
+.underline_top {
+    margin-left: 96px;
+    margin-right: 96px;
+
+}
+
+
+.account-form {
+    margin-top: 128px;
+    text-align: center;
+}
+/* Toggle-register */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  #EFEFEF;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 236px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #707070;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(252px);
+    -ms-transform: translateX(252px);
+    transform: translateX(252px);
+}
+
+  /* Text on toggle */
+.sign-in {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 23%;
+
+}
+.register {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 75%;
+}
+
+.sign-in, .register {
+    color: #000000;
+  
+    font-family: 'dm_sans_regular';
+    font-size: 20px;
+    line-height: 26px; 
+}
+
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 8px;
+}
+  
+.slider.round:before {
+    border-radius: 8px;
+}
+
+/* email */
+#email, #password {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    width: 500px;
+    margin-top: 46px;
+
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+    color: #707070;
+
+}
+/* checkbox remember */
+.checkbox-rememeber {
+    margin-top: 15px;
+    
+}
+
+#remember {
+    width: 16px;
+    height: 17.17px;
+
+}
+
+#label_remember {
+    margin-left: 8px;
+
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+
+}
+/* Button Sign-in */
+.btn_sign-in {
+    width: 500px;
+    height: 53px;
+    background-color: #000000;
+    border: #000000;
+    margin-top: 59px;
+
+    font-family: 'dm_sans_medium';
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+
+}
+.pasw-forget{
+    display: block;
+    text-decoration: none;
+    margin-top: 13px;
+
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+}
+.pasw-forget:hover {
+    color: #D8D8D8;
+
+
+}
