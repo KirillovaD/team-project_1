@@ -1,0 +1,134 @@
+body {
+    width: 1248px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1248px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    width: 486px;
+    height: 600px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 762px;
+    height: 600px;
+}
+
+.smallfoto {
+    position: relative;
+    left: 97px;
+    padding-bottom: 26px;
+    top:130px;
+}
+
+
+.name {
+    position: absolute;
+    width: 486px;
+    height: 597px;
+    left: 829px;
+    top: 235px;
+}
+
+.prise {
+    position: absolute;
+    height: 26px;
+    left: 829px;
+    top: 293px;
+    color: #A18A68;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.description {
+    position: absolute;
+    width: 484px;
+    height: 108px;
+    left: 829px;
+    top: 426px;
+}
+
+.button {
+    position: absolute;
+    width: 358px;
+    height: 53px;
+    left: 985px;
+    top: 582px;
+}
+
+.sku{
+position: absolute;
+height: 26.77px;
+left: 829px;
+top: 765px;
+}
+
+.connection {
+    position: relative;
+    height: 19.66px;
+    left: 829px;
+    margin: 0;
+    padding-right: 30px;
+}
+
+
+
+.bigfoto {
+    position: absolute;
+    width: 540px;
+    height: 600px;
+    left: 256px;
+    top: 235px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1248px;
+    top:1200px;
+    
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.tab{
+position: absolute;
+width: 1248px;
+height: 154.5px;
+left: 96px;
+top: 965.11px;
+
+}
+h3{
+    position: absolute;
+left: 96px;
+top: 1100px;
+}
+
+.products,
+.prise1,
+.name1 {
+    position: relative;
+    left: 96px;
+    width: 380px;
+
+}
+
+.prise1 {
+    color: #A18A68;
+    padding-bottom: 20px;
+}
