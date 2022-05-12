@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'allerta_stencil_regular';
+    src: url('../assets/fonts/allertastencil-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/allertastencil-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_bold';
+    src: url('../assets/fonts/dmsans-bold-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_medium';
+    src: url('../assets/fonts/dmsans-medium-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_regular';
+    src: url('../assets/fonts/dmsans-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header, footer {
+    margin-left: 96px;
+    margin-right: 96px;
+}
+.underline_top {
+    margin-left: 96px;
+    margin-right: 96px;
+
+}
+.privacy_policy{
+    margin-top: 128px;
+    margin-left: 381px;
+    margin-bottom: 250px;  
+}
+
+h1 {
+    margin-left: 215px;
+    
+}
+.security, .cookies {
+    font-family: 'dm_sans_regular';
+    font-size: 26px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+li {
+    font-family: 'dm_sans_regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    
+    color: #000000;
+    
+}
