@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'allerta_stencil_regular';
+    src: url('../assets/fonts/allertastencil-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/allertastencil-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_bold';
+    src: url('../assets/fonts/dmsans-bold-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_medium';
+    src: url('../assets/fonts/dmsans-medium-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_regular';
+    src: url('../assets/fonts/dmsans-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header, footer {
+    margin-left: 96px;
+    margin-right: 96px;
+}
+.underline_top {
+    margin-left: 96px;
+    margin-right: 96px;
+
+}
+.reset-password_form{
+    margin-top: 128px;
+    margin-bottom: 250px;
+    text-align: center;
+}
+
+#email {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    width: 500px;
+    margin-top: 76px;
+
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+    color: #707070;
+
+}
+
+/* Button reset password */
+.btn_reset-password {
+    width: 500px;
+    height: 53px;
+    background-color: #000000;
+    border: #000000;
+    margin-top: 64px;
+
+    font-family: 'dm_sans_medium';
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+
+}
+.pasw-forget{
+    display: block;
+    text-decoration: none;
+    margin-top: 13px;
+
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+}
+.pasw-forget:hover {
+    color: #D8D8D8;
+
+}
