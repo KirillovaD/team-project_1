@@ -1,0 +1,65 @@
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-text{
+    text-align: center;
+    margin-bottom: 108px;
+    margin-top: 125px ;
+}
+
+.form{
+    align-self: center;
+}
+
+.form-columns{
+    display: grid;
+    grid-template-columns: repeat(2, 396px);
+    grid-template-rows: repeat(2, 39px);
+    column-gap: 116px ;
+    row-gap: 94px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form button{
+    width: 500px;
+    height: 53px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: 96px;
+    margin-left: 200px;
+
+}
+
+input{
+    width: 396px;
+    height: 39px;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+
+.message{
+    margin-top: 126px;
+}
+#message{
+    width: 908px;
+    height: 71px;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.message label{
+    padding-bottom: 44px;
+    width: 65px;
+    height: 27px;
+    color: #707070;
+
+}

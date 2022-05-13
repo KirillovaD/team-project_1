@@ -49,6 +49,15 @@ header {
     margin: 0;
 }
 
+.logo p a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+logo p::first-letter a:visited{
+    color: #A18A68;
+}
+
 
 .nav {
     display: flex;
@@ -56,6 +65,10 @@ header {
     font-family: dm_sans_regular, sans-serif;
     font-size: 16px;
     line-height: 27px;
+    color: #000000;
+}
+
+.nav a:visited{
     color: #000000;
 }
 
@@ -106,6 +119,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer-line a:visited{
+    color: #707070;
 }
 
 .footer-nav {
@@ -201,10 +218,15 @@ h5 {
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
-
     color: #000000;
-
 }
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+
+
 p .large {
     font-family: 'dm_sans_bold';
     font-style: normal;
