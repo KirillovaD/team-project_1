@@ -64,6 +64,9 @@ body {
     height: 53px;
     left: 985px;
     top: 582px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+border-radius: 4px;
 }
 
 .sku{
@@ -102,7 +105,10 @@ top: 765px;
 }
 a{
     text-decoration: none;
-    color: grey;
+    color: #707070;
+}
+a.visited {
+    color: #000000;
 }
 
 .tab{
