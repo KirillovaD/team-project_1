@@ -50,6 +50,73 @@ body {
     line-height: 26px;
 }
 
+.simple-rating {
+    position:  absolute;
+    font-size: 18px;
+    display: inline-block;
+    left: 829px;
+    top:386px;
+    padding-right: 15px;
+}
+
+.simple-rating::before {
+    content: "★★★★★";
+    display: block;
+}
+
+.simple-rating_items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    padding-right: 15px;
+
+}
+
+.simple-rating_star {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+}
+
+.simple-rating_label {
+    flex: 0 0 20%;
+    height: 100%;
+    cursor: pointer;
+    color: rgb(219, 218, 212);
+}
+
+.simple-rating_label::before {
+    content: "★";
+    display: block;
+    transition: color 0,3s ease 0s;
+}
+
+.simple-rating_star:checked,
+.simple-rating_star:checked ~.simple-rating_label {
+    color: black;
+}
+
+.simple-rating_label:hover,
+.simple-rating_label:hover ~ .simple-rating_label,
+.simple-rating_label:checked ~ .simple-rating_label:hover {
+    color: rgb(90, 87, 87);
+
+}
+
+.review{
+    position: absolute;
+    top: 386px;
+    left: 920px;
+}
 .description {
     position: absolute;
     width: 484px;

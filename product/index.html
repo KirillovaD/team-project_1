@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="../generic.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-          crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Shoppe</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/Fav%20Icon.png">
     <link rel="stylesheet" href="normalize.css">
@@ -22,130 +21,162 @@
 
 <body>
 
-<header>
-    <div class="logo">
-        <p><a href="../index.html">SHOPPE</a></p>
-    </div>
-    <nav class="nav">
-        <div class="links">
-            <h5><a href="../shop/index.html">Shop</a></h5>
-            <h5>Blog</h5>
-            <h5>Our Story</h5>
+    <header>
+        <div class="logo">
+            <p><a href="../index.html">SHOPPE</a></p>
+        </div>
+        <nav class="nav">
+            <div class="links">
+                <h5><a href="../shop/index.html">Shop</a></h5>
+                <h5>Blog</h5>
+                <h5>Our Story</h5>
+            </div>
+
+            <hr>
+
+            <div class="action-buttons">
+                <div>
+                    <img src="../assets/img/loop%20icon.png" alt="search-loop" width="21" height="21">
+                </div>
+                <div>
+                    <img src="../assets/img/shopping-cart%201.png" alt="cart" width="21" height="21">
+                </div>
+                <div>
+                    <a href="../my-account/sign-in/index.html">
+                        <img src="../assets/img/account%20icon.png" alt="account" width="22" height="22">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <div class="foto">
+            <div class="smallfoto"><img src="foto/Img 2.png"></div>
+            <div class="smallfoto"><img src="foto/Img 3.png"></div>
+            <div class="smallfoto"><img src="foto/Img 4.png"></div>
+            <div class="smallfoto"><img src="foto/Img 5.png"></div>
+            <div class="bigfoto"><img src="foto/Img 01.png"></div>
         </div>
 
-        <hr>
-
-        <div class="action-buttons">
-            <div>
-                <img src="../assets/img/loop%20icon.png" alt="search-loop" width="21" height="21">
+        <div class="information">
+            <p class="name">Lira Earrings</p>
+            <p class="prise">$ 20,00</p>
+          
+            <div class="simple-rating">
+                <div class="simple-rating_items">
+                    <input id="simple-rating_5" class="simple-rating_star" type="radio" name="simple-rating" value="5">
+                    <label for="simple-rating_5" class="simple-rating_label"></label>
+            
+                    <input id="simple-rating_4" class="simple-rating_star" type="radio" name="simple-rating" value="4">
+                    <label for="simple-rating_4" class="simple-rating_label"></label>
+            
+                    <input id="simple-rating_3" class="simple-rating_star" type="radio" name="simple-rating" value="3">
+                    <label for="simple-rating_3" class="simple-rating_label"></label>
+            
+                    <input id="simple-rating_2" class="simple-rating_star" type="radio" name="simple-rating" value="2">
+                    <label for="simple-rating_2" class="simple-rating_label"></label>
+            
+                    <input id="simple-rating_1" class="simple-rating_star" type="radio" name="simple-rating" value="1">
+                    <label for="simple-rating_1" class="simple-rating_label"></label>
+                </div>
             </div>
-            <div>
-                <img src="../assets/img/shopping-cart%201.png" alt="cart" width="21" height="21">
-            </div>
-            <div>
-                <a href="../my-account/sign-in/index.html">
-                    <img src="../assets/img/account%20icon.png" alt="account" width="22" height="22">
-                </a>
-            </div>
-        </div>
-    </nav>
-</header>
+            <p class="review">1 customer review</p>
 
-<main class="container">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat,
+                augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae
+                libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </p>
 
-    <div class="foto">
-        <div class="smallfoto"><img src="foto/Img 2.png"></div>
-        <div class="smallfoto"><img src="foto/Img 3.png"></div>
-        <div class="smallfoto"><img src="foto/Img 4.png"></div>
-        <div class="smallfoto"><img src="foto/Img 5.png"></div>
-        <div class="bigfoto"><img src="foto/Img 01.png"></div>
-    </div>
-
-    <div class="information">
-        <p class="name">Lira Earrings</p>
-        <p class="prise">$ 20,00</p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat,
-            augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae
-            libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </p>
-
-        <input class="button" type="submit" class="btn btn-outline-dark" value="ADD TO CARD">
-        <a class="connection" href="#"><img src="foto/email.png" alt="Email"> </a>
-        <a class="connection" href="#"><img src="foto/f.png" alt="Facebook"> </a>
-        <a class="connection" href="#"><img src="foto/inst.png" alt="Instagram"> </a>
-        <a class="connection" href="#"><img src="foto/Social-Icon color.png" alt="Twitter"> </a>
-        <div class="sku">
-            <p>SKU: 12</p>
-            <p>Categories: Fashion, Style</p>
-        </div>
-    </div>
-</main>
-
-<article>
-    <div>
-        <div class="tab">
-            <nav class="nav">
-                <a class="nav-link text-secondary" href="#">Description</a>
-                <a class="nav-link text-secondary" href="#">Aditional information</a>
-                <a class="nav-link text-secondary" href="#">Reviews(0)</a>
-            </nav>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit,
-                sapien
-                tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed
-                eu
-                felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.
-            </p>
-        </div>
-
-        <h3> Similar Items</h3>
-
-
-        <div class="items">
-            <div class="products">
-                <a href="#"> <img src="foto/P 01.png" alt="Foto"></a>
-                <p class="name1">Ollie Earrings</p>
-                <p class="prise1"> $ 30,00</p>
-            </div>
-            <div class="products">
-                <a href="#"> <img src="foto/P 02.png" alt="Foto"></a>
-                <p class="name1">Hal Earrings</p>
-                <p class="prise1">$ 25,00</p>
-            </div>
-            <div class="products">
-                <a href="#"> <img src="foto/P 03.png" alt="Foto"></a>
-                <p class="name1">Kaede Hair Pin Set Of 3</p>
-                <p class="prise1">$ 30,00</p>
+            <input class="button" type="submit" class="btn btn-outline-dark" value="ADD TO CARD">
+            <a class="connection" href="#"><img src="foto/email.png" alt="Email"> </a>
+            <a class="connection" href="#"><img src="foto/f.png" alt="Facebook"> </a>
+            <a class="connection" href="#"><img src="foto/inst.png" alt="Instagram"> </a>
+            <a class="connection" href="#"><img src="foto/Social-Icon color.png" alt="Twitter"> </a>
+            <div class="sku">
+                <p>SKU: 12</p>
+                <p>Categories: Fashion, Style</p>
             </div>
         </div>
-    </div>
-    </div>
-</article>
+    </main>
 
-<footer>
-    <div class="footer-line">
-        <div class="footer-nav">
-            <h5><a href="../contact/index.html">CONTACT</a></h5>
-            <h5>TERMS OF SERVICES</h5>
-            <h5>SHIPPING AND RETURNS</h5>
-        </div>
-        <div class="footer-email">
-            <h5>Give an email, get the newsletter.</h5>
-            <img src="../assets/img/arrow%20icon.png" alt="arrow" width="25" height="9">
-        </div>
-    </div>
-    <div class="footer-line">
+    <article>
         <div>
-            <h5> &copy; <span>2022 Shelly.</span> Terms of use <span>and</span> <a href="../privacy/index.html">privacy
-                policy.</a></h5>
+            <div class="tab">
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Aditional information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews(0</a>
+                    </li>
+                </ul>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat
+                    hendrerit,
+                    sapien
+                    tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat
+                    sed
+                    eu
+                    felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.
+                </p>
+            </div>
+
+            <h3> Similar Items</h3>
+
+
+            <div class="items">
+                <div class="products">
+                    <a href="#"> <img src="foto/P 01.png" alt="Foto"></a>
+                    <p class="name1">Ollie Earrings</p>
+                    <p class="prise1"> $ 30,00</p>
+                </div>
+                <div class="products">
+                    <a href="#"> <img src="foto/P 02.png" alt="Foto"></a>
+                    <p class="name1">Hal Earrings</p>
+                    <p class="prise1">$ 25,00</p>
+                </div>
+                <div class="products">
+                    <a href="#"> <img src="foto/P 03.png" alt="Foto"></a>
+                    <p class="name1">Kaede Hair Pin Set Of 3</p>
+                    <p class="prise1">$ 30,00</p>
+                </div>
+            </div>
         </div>
-        <div class="footer-social-media">
-            <a href=""><img src="../assets/img/in%20icon.png" alt="link-to-linked-in" width="19" height="18"></a>
-            <a href=""><img src="../assets/img/fb%20icon.png" alt="link-to-facebook" width="10" height="18"></a>
-            <a href=""><img src="../assets/img/insta.png" alt="link-to-instagram" width="18" height="18"></a>
-            <a href=""><img src="../assets/img/twitter.png" alt="link-to-twitter" width="20" height="17"></a>
         </div>
-    </div>
-</footer>
+    </article>
+
+    <footer>
+        <div class="footer-line">
+            <div class="footer-nav">
+                <h5><a href="../contact/index.html">CONTACT</a></h5>
+                <h5>TERMS OF SERVICES</h5>
+                <h5>SHIPPING AND RETURNS</h5>
+            </div>
+            <div class="footer-email">
+                <h5>Give an email, get the newsletter.</h5>
+                <img src="../assets/img/arrow%20icon.png" alt="arrow" width="25" height="9">
+            </div>
+        </div>
+        <div class="footer-line">
+            <div>
+                <h5> &copy; <span>2022 Shelly.</span> Terms of use <span>and</span> <a
+                        href="../privacy/index.html">privacy
+                        policy.</a></h5>
+            </div>
+            <div class="footer-social-media">
+                <a href=""><img src="../assets/img/in%20icon.png" alt="link-to-linked-in" width="19" height="18"></a>
+                <a href=""><img src="../assets/img/fb%20icon.png" alt="link-to-facebook" width="10" height="18"></a>
+                <a href=""><img src="../assets/img/insta.png" alt="link-to-instagram" width="18" height="18"></a>
+                <a href=""><img src="../assets/img/twitter.png" alt="link-to-twitter" width="20" height="17"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
