@@ -63,21 +63,21 @@
         <div class="information">
             <p class="name">Lira Earrings</p>
             <p class="prise">$ 20,00</p>
-          
+
             <div class="simple-rating">
                 <div class="simple-rating_items">
                     <input id="simple-rating_5" class="simple-rating_star" type="radio" name="simple-rating" value="5">
                     <label for="simple-rating_5" class="simple-rating_label"></label>
-            
+
                     <input id="simple-rating_4" class="simple-rating_star" type="radio" name="simple-rating" value="4">
                     <label for="simple-rating_4" class="simple-rating_label"></label>
-            
+
                     <input id="simple-rating_3" class="simple-rating_star" type="radio" name="simple-rating" value="3">
                     <label for="simple-rating_3" class="simple-rating_label"></label>
-            
+
                     <input id="simple-rating_2" class="simple-rating_star" type="radio" name="simple-rating" value="2">
                     <label for="simple-rating_2" class="simple-rating_label"></label>
-            
+
                     <input id="simple-rating_1" class="simple-rating_star" type="radio" name="simple-rating" value="1">
                     <label for="simple-rating_1" class="simple-rating_label"></label>
                 </div>
@@ -87,6 +87,14 @@
             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat,
                 augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae
                 libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </p>
+
+                <div class="number">
+                    <button class="number-minus" type="button"
+                        onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+                    <input type="number" min="0" value="1" readonly>
+                    <button class="number-plus" type="button"
+                        onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+                </div>
 
             <input class="button" type="submit" class="btn btn-outline-dark" value="ADD TO CARD">
             <a class="connection" href="#"><img src="foto/email.png" alt="Email"> </a>
