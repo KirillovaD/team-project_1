@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'allerta_stencil_regular';
+    src: url('../assets/fonts/allertastencil-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/allertastencil-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_bold';
+    src: url('../assets/fonts/dmsans-bold-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_medium';
+    src: url('../assets/fonts/dmsans-medium-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dm_sans_regular';
+    src: url('../assets/fonts/dmsans-regular-webfont.woff2') format('woff2'),
+    url('../assets/fonts/dmsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.content {
+    width: 1248px;
+    margin: 0 auto;
+}
+.shop {
+    
+    
+    border-bottom: 2px solid #000;
+    padding-bottom: 23px;
+
+
+}
+.underline {
+    border: 2px solid #A18A68;
+    margin: 0;
+}
+.additional-info-top {
+    width: 1248px;
+    height: 68px;
+    margin-top: 0;
+    padding-top: 19px;
+    
+
+    background: #EFEFEF;
+}
+
+.additional-info-top img{
+    margin-left: 39px;
+
+}
+
+.span-add_additional-info-top {
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+
+}
+.span-cart_additional-info-top {
+    margin-left: 755px;
+    font-family: 'dm_sans_medium';
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #A18A68;
+
+}
+.product {
+    display: grid;
+    grid-template-columns: 120px 540px 486px;
+   
+    column-gap: 39px;
+    row-gap: 40px;
+    margin-top: 60px;
+    align-content: stretch;
+
+}
+.aditional-info_text {
+    margin-top: 39px;
+}
+.aditional-info_text__bold {
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+.aditional-info_text__small {
+    font-family: 'dm_sans_regular';
+    font-size: 16px;
+    line-height: 27px;
+
+    color: #707070;
+
+}
+.similar_items {
+    margin-top: 66px;
+}
+
+.similar_items_carousel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+
+}
+.products {
+    width: 380px;
+    height: 472px;
+    margin-top: 47px;
+
+}
+.products h4 {
+    color: #A18A68;
+
+}
+
+footer .underline, article .underline{ 
+    border: 1px solid #D8D8D8;
+}
+
+
+h5 span {
+    color: #000000;
+}
+footer .underline{
+    margin-bottom: 37px;
+}
+.h4_gold {
+    color: #A18A68;
+}
