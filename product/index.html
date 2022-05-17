@@ -13,8 +13,6 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Shoppe</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/Fav%20Icon.png">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="generic.css">
     <link rel="stylesheet" href="stylesheet.css">
 
 </head>
@@ -49,6 +47,7 @@
             </div>
         </nav>
     </header>
+    <hr class="underline">
 
     <main class="container">
 
@@ -88,13 +87,13 @@
                 augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae
                 libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </p>
 
-                <div class="number">
-                    <button class="number-minus" type="button"
-                        onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
-                    <input type="number" min="0" value="1" readonly>
-                    <button class="number-plus" type="button"
-                        onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
-                </div>
+            <div class="number">
+                <button class="number-minus" type="button"
+                    onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+                <input type="number" min="0" value="1" readonly>
+                <button class="number-plus" type="button"
+                    onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+            </div>
 
             <input class="button" type="submit" class="btn btn-outline-dark" value="ADD TO CARD">
             <a class="connection" href="#"><img src="foto/email.png" alt="Email"> </a>
