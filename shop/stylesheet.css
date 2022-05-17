@@ -34,7 +34,10 @@
     margin: 0 auto;
 }
 .shop {
-    text-decoration: underline 2px black;
+    align-self: baseline;
+    border-bottom: 2px solid #000;
+    padding-bottom: 23px;
+
 
 }
 .underline {
