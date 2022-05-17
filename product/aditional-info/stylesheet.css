@@ -93,6 +93,9 @@
     margin-bottom: 40px;
     
 }
+.product_info h2{
+    margin-top: 0;
+}
 
 .product_info h4{
     color: #A18A68;
@@ -194,13 +197,11 @@
     }
     
     .number-plus {
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    bottom: 1px;
+   
+    
     width: 33px;
     padding: 0;
-    display: block;
+    
     text-align: center;
     border: none;
     background-color: #EFEFEF;
@@ -209,6 +210,47 @@
 
     }
 
+    .btn_add-to-card {
+        width: 360px;
+        height: 53px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 4px;
+
+        font-family: 'dm_sans_medium';
+        font-size: 16px;
+        line-height: 21px;
+        color: #000000;
+
+    }
+
+    /* social icons */
+    .icons{
+        margin-top: 80px;
+
+    }
+    .icons_like {
+        background-image: url(../../assets/img/heart-hover.png);
+        background-size: cover;
+        border: none;
+        width: 19.14px;
+        height: 18px;
+    }
+    .icons_like:hover {
+
+    }
+    .icons hr{
+        width: 1px;
+        height: 18px;
+        display: inline-block;
+        color: #707070;
+
+        margin: 0 39px;
+    }
+
+    .icons a {
+        margin-right: 25px;
+    }
 
 .aditional-info_tab_nav {
     display: flex;
