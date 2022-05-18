@@ -1,10 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shoppe</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/img/Fav%20Icon.png">
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../generic.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
 </head>
+
 <body>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <p><a href="../../index.html">SHOPPE</a></p>
+            </div>
+            <nav class="nav">
+                <div class="links">
+                    <h5 class="shop"><a href="shop/index.html">Shop</a></h5>
+                    <h5>Blog</h5>
+                    <h5>Our Story</h5>
+                </div>
+
+                <hr>
+
+                <div class="action-buttons">
+                    <div>
+                        <img src="../../assets/img/loop%20icon.png" alt="search-loop" width="21" height="21">
+                    </div>
+                    <div>
+                        <img src="../../assets/img/shopping-cart%201.png" alt="cart" width="21" height="21">
+                    </div>
+                    <div>
+                        <a href="../../my-account/sign-in/index.html">
+                            <img src="../../assets/img/account%20icon.png" alt="account" width="22" height="22">
+
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <hr class="underline">
+        <div class="additional-info-top">
+            <img src="../../assets/img/Icon color.png" alt="Icon-check">
+            <span class="span-add_additional-info-top">The item added to your Shopping bag.</span>
+            <span class="span-cart_additional-info-top">VIEW CART</span>
+        </div>
+        <section class="product">
+            <div class="product_foto-small">
+                <img src="../foto/Img 2.png">
+                <img src="../foto/Img 3.png">
+                <img src="../foto/Img 4.png">
+                <img src="../foto/Img 5.png">
+            </div>
+            <div class="product_foto-big">
+                <img src="../foto/Img 01.png">
+            </div>
+            <div class="product_info">
+                <h2>Lira Earrings</h2>
+                <h4>$ 20,00</h4>
+
+                <div class="simple-rating">
+                    <div class="simple-rating_items">
+                        <h5 class="simple-rating_review">1 customer review</h5>
+                        <input id="simple-rating_5" class="simple-rating_star" type="radio" name="simple-rating"
+                            value="5">
+                        <label for="simple-rating_5" class="simple-rating_label"></label>
+
+                        <input id="simple-rating_4" class="simple-rating_star" type="radio" name="simple-rating"
+                            value="4">
+                        <label for="simple-rating_4" class="simple-rating_label"></label>
+
+                        <input id="simple-rating_3" class="simple-rating_star" type="radio" name="simple-rating"
+                            value="3">
+                        <label for="simple-rating_3" class="simple-rating_label"></label>
+
+                        <input id="simple-rating_2" class="simple-rating_star" type="radio" name="simple-rating"
+                            value="2">
+                        <label for="simple-rating_2" class="simple-rating_label"></label>
+
+                        <input id="simple-rating_1" class="simple-rating_star" type="radio" name="simple-rating"
+                            value="1">
+                        <label for="simple-rating_1" class="simple-rating_label"></label>
+
+                    </div>
+                </div>
+
+                <h5 class="simple-rating_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    placerat,
+                    augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae
+                    libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </h5>
+
+                <div class="add-to-card">
+                    <div class="number">
+                        <button class="number-minus" type="button"
+                            onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+                        <input type="number" min="0" value="1" readonly>
+                        <button class="number-plus" type="button"
+                            onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+                    </div>
+                    <button class="btn_add-to-card">ADD TO CARD</button>
+                </div>
+                <div class="icons">
+                    <button class="icons_like"></button>
+                    <hr>
+
+                    <a class="connection" href="#"><img src="../foto/email.png" alt="Email"> </a>
+                    <a class="connection" href="#"><img src="../foto/f.png" alt="Facebook"> </a>
+                    <a class="connection" href="#"><img src="../foto/inst.png" alt="Instagram"> </a>
+                    <a class="connection" href="#"><img src="../foto/Social-Icon color.png" alt="Twitter"> </a>
+                </div>
+
+                <div class="sku">
+                    <h5>SKU: </h5>
+                    <h5 class="sku__grey">12</h5>
+                    <br><br>
+                    <h5>Categories:</h5>
+                    <h5 class="sku__grey">Fashion, Style</h5>
+                </div>
+
+            </div>
+
+        </section>
+        <article class="aditional-info">
+            <div class="aditional-info_tab">
+                <ul class="aditional-info_tab_nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../aditional-info/index.html">Aditional information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Reviews (0)</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="underline">
+            <div class="reviews">
+                <div class="reviews_customer">
+                    <h3 class="reviews_customer_title">2 Reviews for lira earings</h3>
+                    <div class="reviews_customer_1">
+                        <h3 class="reviews_customer_name">Scarlet withch</h3> <span class="reviews_customer_date">6 May,
+                            2020</span>
+                        <div class="simple-rating">
+                            <div class="simple-rating_items">
+                                <input id="simple-rating_5" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="5">
+                                <label for="simple-rating_5" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_4" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="4">
+                                <label for="simple-rating_4" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_3" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="3">
+                                <label for="simple-rating_3" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_2" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="2">
+                                <label for="simple-rating_2" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_1" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="1">
+                                <label for="simple-rating_1" class="simple-rating_label"></label>
+
+                            </div>
+                        </div>
+                        <h5 class="reviews_customer_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                            diam nonummy nibh euismod tincidunt ut laoreet. </h5>
+                    </div>
+                    <hr>
+                    <div class="reviews_customer_2">
+                        <h3 class="reviews_customer_name">Scarlet withch</h3> <span class="reviews_customer_date">6 May,
+                            2020</span>
+                        <div class="simple-rating">
+                            <div class="simple-rating_items">
+                                <input id="simple-rating_5" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="5">
+                                <label for="simple-rating_5" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_4" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="4">
+                                <label for="simple-rating_4" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_3" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="3">
+                                <label for="simple-rating_3" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_2" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="2">
+                                <label for="simple-rating_2" class="simple-rating_label"></label>
+
+                                <input id="simple-rating_1" class="simple-rating_star" type="radio" name="simple-rating"
+                                    value="1">
+                                <label for="simple-rating_1" class="simple-rating_label"></label>
+
+                            </div>
+                        </div>
+                        <h5 class="reviews_customer_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                            diam nonummy nibh euismod tincidunt ut laoreet. </h5>
+                    </div>
+                </div>
+                <div class="reviews_add">
+                    <h3>Add a Review</h3>
+                    <p class="reviews_add_note">Your email address will not be published. Required fields are marked *
+                    </p>
+                    <textarea name="reviews_add_text" id="reviews_add_text" cols="30" rows="3"
+                        placeholder="Your Review*"></textarea>
+                    <input type="text" name="name" class="reviews_add_name" placeholder="Enter your name*">
+                    <input type="text" name="email" class="reviews_add_email" placeholder="Enter your Email*">
+                    <input type="checkbox" name="save_name" id="reviews_add_checkbox">
+                    <span class="save_name">Save my
+                        name, email, and website in
+                        this browser for the next time I comment</span>
+                    <p class="reviews_add_rate">Your Rating*</p>
+                    <div class="simple-rating">
+                        <div class="simple-rating_items">
+                            <input id="simple-rating_5" class="simple-rating_star" type="radio" name="simple-rating"
+                                value="5">
+                            <label for="simple-rating_5" class="simple-rating_label"></label>
+
+                            <input id="simple-rating_4" class="simple-rating_star" type="radio" name="simple-rating"
+                                value="4">
+                            <label for="simple-rating_4" class="simple-rating_label"></label>
+
+                            <input id="simple-rating_3" class="simple-rating_star" type="radio" name="simple-rating"
+                                value="3">
+                            <label for="simple-rating_3" class="simple-rating_label"></label>
+
+                            <input id="simple-rating_2" class="simple-rating_star" type="radio" name="simple-rating"
+                                value="2">
+                            <label for="simple-rating_2" class="simple-rating_label"></label>
+
+                            <input id="simple-rating_1" class="simple-rating_star" type="radio" name="simple-rating"
+                                value="1">
+                            <label for="simple-rating_1" class="simple-rating_label"></label>
+
+                        </div>
+                    </div>
+
+                    <button>Submit</button>
+                </div>
+            </div>
+        </article>
+        <article class="similar_items">
+            <h2> Similar Items</h2>
+            <div class="similar_items_carousel">
+                <div class="products">
+                    <a href="#"> <img src="../foto/P 01.png" alt="Foto"></a>
+                    <h3>Ollie Earrings</h3>
+                    <h4> $ 30,00</h4>
+                </div>
+                <div class="products">
+                    <a href="#"> <img src="../foto/P 02.png" alt="Foto"></a>
+                    <h3>Hal Earrings</h3>
+                    <h4>$ 25,00</h4>
+                </div>
+                <div class="products">
+                    <a href="#"> <img src="../foto/P 03.png" alt="Foto"></a>
+                    <h3>Kaede Hair Pin Set Of 3</h3>
+                    <h4>$ 30,00</h4>
+                </div>
+            </div>
+
+        </article>
+
+        <footer>
+            <hr class="underline">
+            <div class="footer-line">
+                <div class="footer-nav">
+                    <h5><a href="../../contact/index.html">CONTACT</a></h5>
+                    <h5>TERMS OF SERVICES</h5>
+                    <h5>SHIPPING AND RETURNS</h5>
+                </div>
+                <div class="footer-email">
+                    <h5>Give an email, get the newsletter.</h5>
+                    <img src="../../assets/img/arrow%20icon.png" alt="arrow" width="25" height="9">
+                </div>
+            </div>
+            <br><br>
+            <div class="footer-line">
+                <div>
+                    <h5> &copy; <span>2022 Shelly.</span> Terms of use <span>and</span> <a
+                            href="../../privacy/index.html">privacy policy.</a></h5>
+                </div>
+                <div class="footer-social-media">
+                    <a href=""><img src="../../assets/img/in%20icon.png" alt="link-to-linked-in" width="19"
+                            height="18"></a>
+                    <a href=""><img src="../../assets/img/fb%20icon.png" alt="link-to-facebook" width="10"
+                            height="18"></a>
+                    <a href=""><img src="../../assets/img/insta.png" alt="link-to-instagram" width="18" height="18"></a>
+                    <a href=""><img src="../../assets/img/twitter.png" alt="link-to-twitter" width="20" height="17"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
 
 </body>
+
 </html>
